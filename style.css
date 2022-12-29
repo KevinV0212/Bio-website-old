@@ -1,0 +1,262 @@
+:root{
+    --light-blue:#AEC4EF;
+    --blue:#4C75EC;
+    --off-white:#EDECF3;
+    --dark-gray:#333333;
+    --carrot-orange:#FF7C32;
+    --carrot-green:#8EBA71;
+    --carrot-green-dark:#5C7861;
+    --ear-pink:#FBA6AE;
+    --ear-pink-light:#FFD7CA;
+}
+body{
+    margin:0;
+    background-color:var(--off-white);
+    color:var(--dark-gray);
+    font-family: Tahoma, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+}
+
+/* global */
+.container{
+    margin:auto;
+    width:80%;
+    overflow:hidden;
+}
+
+.highlight{
+    color:var(--carrot-orange);
+}
+
+.textbox .topic h2{
+    padding:0;
+    margin:0;
+}
+
+.textbox .topic{
+    text-align:center;
+}
+
+.textbox ul{
+    padding:0;
+    margin:0;
+}
+
+.textbox p{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color:var(--light-blue);
+    color:var(--dark-gray);
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: 5px solid var(--blue);
+}
+
+/* header section*/
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float:left;
+    display:inline;
+    padding: 0 10px;
+}
+
+header a{
+    text-decoration:none;
+    color:var(--off-white);
+    font-size:20px;
+    padding:100% 10px;
+}
+
+nav{
+    display:inline;
+    float:right;
+    padding:10px 20px;
+    margin-top:20px;
+    background: var(--carrot-green);
+    border: 5px solid var(--carrot-green-dark);
+    border-radius:20px;
+}
+
+header #logo h1{
+    margin:0;
+    padding:0;
+}
+
+header #logo {
+    text-align:center;
+    float:left;
+    padding: 20px;
+    margin:10px 0px;
+    border: 5px solid var(--ear-pink);
+    border-radius:20px;
+    background-color:var(--ear-pink-light);
+    color:#615854;
+    font-size:16px;
+}
+
+header .current a{
+    color:var(--carrot-orange);
+    font-weight:bold;
+    padding:0 5px;
+    border-left:2px solid var(--carrot-green-dark);
+    border-right:2px solid var(--carrot-green-dark);
+
+}
+
+/* information section */
+#about #info p, h2{
+    padding:0;
+    margin:0;
+    font-size:20px;
+}
+#about #info{
+    float:left;
+    width:70%;
+    box-sizing:border-box;
+    margin-top:20px;
+    border: 5px solid var(--dark-gray);
+    border-radius:10px;
+    padding:20px;
+    
+}
+
+#about #status{
+    border: 5px solid #008080; 
+    border-radius:10px;
+    background-color:#99EDC3;
+    color: #008080;
+    width:30%;
+    padding:5px;
+    margin:auto;
+    margin-top:10px;
+
+
+}
+#about #photo img{
+    margin:0;
+    padding:0;
+    border:5px solid var(--dark-gray);
+    border-radius:10px;
+   
+}
+#about #photo figcaption{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#about #photo{
+    float:right;
+}
+
+/* footer section */
+footer{
+    text-align:center;
+    background-color:var(--blue);
+    color:var(--off-white);
+    margin-bottom:0;    
+}
+
+/* ============= Education page ============== */
+
+#schools .strip .picture-box img{
+    margin:0;
+    padding:0;
+    width:150px;
+}
+#schools  .strip .picture-box{
+    float:left;
+    width:40%;
+    box-sizing:border-box;
+}
+
+#schools  .strip .textbox .topic h2{
+    padding:0;
+    margin:0;
+}
+
+#schools  .strip .textbox .topic{
+    text-align:center;
+}
+
+#schools  .strip .textbox ul{
+    padding:0;
+    margin:0;
+}
+
+#schools  .strip .textbox{
+    float:right;
+    width:60%;
+    box-sizing:border-box;
+}
+
+#schools  .strip{
+    overflow:hidden;
+    margin-top:20px;
+}
+/* ============= Skills page ============= */
+
+#skills #skill-boxes{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#skill-boxes .box .textbox ul{
+    text-align: center;
+    list-style: none;
+}
+
+#skill-boxes .box .picture-box img{
+    max-width:150px;
+    margin:auto;
+}
+#skill-boxes .box .picture-box{
+    text-align:center;
+}
+#skill-boxes .box{
+    padding:10px;
+    flex-basis:30%;
+    align-items:center;
+    border:1px solid var(--dark-gray);
+
+}
+
+#skill-boxes{
+    margin: 10px 0;
+}
+
+/* ========= Projects Page ============= */
+
+#projects .strip .textbox .topic{
+    text-align:left;
+}
+#projects .strip .textbox{
+    text-align:left;
+}
+
+#projects .strip a{
+    display:inline-block;
+    min-width:20px;
+    text-decoration:none;
+    background-color: var(--carrot-green);
+    color:var(--off-white);
+    border: 5px outset var(--carrot-green-dark);
+    border-radius:20px; 
+    padding:10px;
+    font-size:20px;
+    margin:5px 0;
+}
+
+/* ============ Contact Page ========== */
+
+#contact .textbox a img{
+    margin-top:10px;
+}
+
+
