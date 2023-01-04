@@ -8,6 +8,6 @@ Currently, the website is optimized for desktop display resolutions
 - form to send potential inquiries
 - possible style revisions
 ## Bug Fixes:
--links are hard to click on mobile displays
--
+- links are hard to click on mobile displays
+
 
