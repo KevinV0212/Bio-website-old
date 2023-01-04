@@ -7,8 +7,7 @@ Currently, the website is optimized for desktop display resolutions
 - hamburger style list for nav at smaller display sizes
 - form to send potential inquiries
 - possible style revisions
-## 
-Bug Fixes:
+## Bug Fixes:
 -links are hard to click on mobile displays
 -
 
