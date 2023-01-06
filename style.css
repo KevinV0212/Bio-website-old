@@ -259,6 +259,7 @@ footer{
     margin:10px 0;
     align-items:center;
     border:1px solid var(--dark-gray);
+    box-sizing:border-box;
 
 }
 
