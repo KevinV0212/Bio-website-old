@@ -81,7 +81,6 @@ header #logo{
     margin-right:20px;
     color:#615854;
     font-size:16px;
-    justify-self:center;
 }
 
 nav{
@@ -92,7 +91,6 @@ nav{
     background: var(--carrot-green);
     border: 5px solid var(--carrot-green-dark);
     border-radius:20px;
-    justify-self:center;
 }
 
 header ul{
@@ -302,7 +300,7 @@ footer{
     {
        flex:direction;
        justify-content:center;
-       margin:0;
+       margin:auto;
     }
     #about
 }
