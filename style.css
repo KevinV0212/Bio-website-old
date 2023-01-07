@@ -240,24 +240,31 @@ footer{
     list-style: none;
     width:100%;
 }
-#skill-boxes .box .textbox #topic{
+#skill-boxes .box .textbox .topic{
     width:100%;
 }
+
 #skill-boxes .box .textbox{
     width:100%;
+    margin:auto;
+    margin-top:10px;
 }
 #skill-boxes .box .picture-box img{
     width:70%;
-    margin:auto;
+    margin:0;
+    padding:0;
 }
 #skill-boxes .box .picture-box{
     text-align:center;
+    width:70%;
+    margin:auto;
 }
 #skill-boxes .box{
+    text-align:center;
+    width:30%;
     padding:10px;
-    flex-basis:30%;
+    flex: basis 0;
     margin:10px 0;
-    align-items:center;
     border:1px solid var(--dark-gray);
     box-sizing:border-box;
 
@@ -299,9 +306,19 @@ footer{
     header .container,
     #about .container
     {
-       flex:direction;
        justify-content:center;
        margin:auto;
     }
-    #about
+}
+@media(max-width: 768px){
+    #skills #skill-boxes{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    #skills #skill-boxes .box{
+        width:80%;
+    }
 }
